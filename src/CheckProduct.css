@@ -1,0 +1,32 @@
+.checkProduct{
+    display: flex;
+    margin: 10px 20px;
+    background-color: white;
+    padding: 30px;
+}
+.checkProduct__image{
+    object-fit: contain;
+    width: 180px;
+    height: 180px;
+}
+.checkProduct__info{
+    padding-left: 20px;
+}
+
+.checkProduct__rating{
+    display: flex;
+}
+.checkProduct__title{
+    font-size: 17px;
+    font-weight: 800;
+}
+
+.checkProduct__info > button{
+    background-color: #ffce51;
+    border: 1px solid #ffce51;
+    padding: 5px;
+    font-size: small;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 5px;
+}

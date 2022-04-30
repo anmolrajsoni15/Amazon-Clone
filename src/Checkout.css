@@ -1,0 +1,26 @@
+.checkout{
+    display: flex;
+}
+.information{
+    margin-left: 10px;
+    background-color: white;
+    padding: 20px;
+}
+.information>h1{
+    font-weight: 500;
+}
+.information>p{
+    font-size: small;
+}
+.checkout__title{
+    margin-top: 10px;
+    padding: 10px;
+    border-bottom: 1px solid lightgray;
+}
+.checkout__ad{
+    width: 100%;
+    margin-bottom: 10px;
+}
+Subtotal{
+    position: sticky;
+}
